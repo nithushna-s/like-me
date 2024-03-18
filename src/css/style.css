@@ -61,8 +61,7 @@ body{
 
 .offer-overlay {
     position: absolute;
-    top: 10px;
-    left: 180px;
+    left: 75%;
     background-color: rgba(164, 35, 35, 0.5); 
     padding: 5px 10px;
     border-radius: 5px;
