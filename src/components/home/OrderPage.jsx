@@ -17,6 +17,8 @@ const OrderPage = () => {
         const updatedProducts = products.filter(product => product.id !== id);
         setProducts(updatedProducts);
         localStorage.setItem('cart', JSON.stringify(updatedProducts));
+        window.location.reload();
+
     };
 
     const handleQuantityChange = (id, newQuantity) => {
